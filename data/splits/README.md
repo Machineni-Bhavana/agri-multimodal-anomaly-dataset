@@ -1,0 +1,1 @@
+Store documented split manifests here. Ensure derived copies cannot leak across splits.\n

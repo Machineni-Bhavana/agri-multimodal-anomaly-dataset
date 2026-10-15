@@ -1,0 +1,25 @@
+seed: 42
+
+sources:
+  sf24:
+    path: data/raw/sf24
+    description: Smart Farming Data 2024 (SF24)
+    url: https://www.kaggle.com/datasets/datasetengineer/smart-farming-data-2024-sf24
+  uav_weed_25:
+    path: data/raw/uav_weed_25
+    description: UAV Weed Dataset 25
+    url: https://www.kaggle.com/datasets/datasetengineer/uav-weed-dataset-25
+  plantvillage:
+    path: data/raw/plantvillage
+    description: PlantVillage Dataset (Kaggle mirror)
+    url: https://www.kaggle.com/datasets/arjuntejaswi/plant-village
+
+outputs:
+  audit_report: reports/dataset_audit.md
+  processed_dir: data/processed
+
+# Do not assume cross-source records share a farm, location, or timestamp.
+# Set pairing strategy only after inspecting source schemas and documenting assumptions.
+pairing:
+  strategy: not_configured
+  synthetic_pairings_allowed: false

@@ -1,0 +1,1 @@
+Generated intermediate data goes here; keep local generated files out of Git.\n

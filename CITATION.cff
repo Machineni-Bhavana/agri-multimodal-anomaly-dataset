@@ -1,0 +1,5 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper after its bibliographic details are finalized."
+title: "Agri Multimodal Anomaly Dataset"
+type: software
+# Add authors, release date, version, and repository URL before publication.
