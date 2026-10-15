@@ -5,10 +5,10 @@ __pycache__/
 venv/
 .env
 
-# Notebooks
+# Jupyter
 .ipynb_checkpoints/
 
-# Local datasets and large artifacts
+# Local datasets and generated data
 data/raw/*
 data/interim/*
 data/processed/*
@@ -26,7 +26,7 @@ outputs/
 *.pth
 *.onnx
 
-# OS / IDE
+# IDE and operating system
 .DS_Store
 .vscode/
 .idea/
